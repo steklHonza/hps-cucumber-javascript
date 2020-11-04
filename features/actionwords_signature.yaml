@@ -84,10 +84,6 @@
   parameters:
   - name: __datatable
   body_hash: d41d8cd98f00b204e9800998ecf8427e
-- name: I take =500 coffees
-  uid: aac9eaf7-2451-48b0-97a1-03e12f84b55b
-  parameters: []
-  body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: a notification about descaling
   uid: fc7cdb91-413e-4f62-bbcb-dcc0c6510a7a
   parameters: []
