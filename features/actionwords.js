@@ -103,14 +103,6 @@ exports.Actionwords = {
       this.iHandleBeans();
   },
 
-  iHandle: function () {
-      assert.equal(true, this.getCoffeeMachine().isDescalingNeeded());
-  },
-
-  iTake500Coffees: function () {
-      assert.equal(true, this.getCoffeeMachine().isDescalingNeeded());
-  },
-
   displayedMessageIs: function (__free_text) {
       this.messageMessageShouldBeDisplayed(__free_text);
   },

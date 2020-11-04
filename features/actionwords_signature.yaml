@@ -84,19 +84,3 @@
   parameters:
   - name: __datatable
   body_hash: d41d8cd98f00b204e9800998ecf8427e
-- name: a notification about descaling
-  uid: fc7cdb91-413e-4f62-bbcb-dcc0c6510a7a
-  parameters: []
-  body_hash: d41d8cd98f00b204e9800998ecf8427e
-- name: a notification about descaling is displayed
-  uid: 97ddb72d-2327-4382-a1b2-4a722f243a9e
-  parameters: []
-  body_hash: d41d8cd98f00b204e9800998ecf8427e
-- name: I handle
-  uid: 254ebdcb-984a-4c53-9a36-384e9ad2afd3
-  parameters: []
-  body_hash: d41d8cd98f00b204e9800998ecf8427e
-- name: I take =500 coffees
-  uid: 616713f8-7e8c-4610-8174-29b4d014d6ba
-  parameters: []
-  body_hash: d41d8cd98f00b204e9800998ecf8427e
