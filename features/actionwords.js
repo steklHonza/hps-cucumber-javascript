@@ -112,6 +112,7 @@ exports.Actionwords = {
   },
 
   ifTake500Coffees: function () {
+    assert.equal(true, this.getCoffeeMachine().isDescalingNeeded());
   },
 
   aNotificationAboutDescaling: function () {
