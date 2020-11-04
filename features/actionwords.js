@@ -111,6 +111,15 @@ exports.Actionwords = {
     this.getCoffeeMachine().showSettings();
   },
 
+  ifTake500Coffees: function () {
+  },
+
+  aNotificationAboutDescaling: function () {
+  },
+
+  aNotificationAboutDescalingIsDisplayed: function () {
+  },
+
   settingsShouldBe: function (__datatable) {
     var hashSettings = this.getCoffeeMachine().getSettings(),
       settings = Object.keys(hashSettings).map(function(key) {

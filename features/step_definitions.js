@@ -107,4 +107,15 @@ module.exports = function () {
         this.actionwords.settingsShouldBe(__datatable);
         callback();
     });
+
+    this.When(/^I take =500 coffees$/, function (callback) {
+        this.actionwords.iTake500Coffees();
+        callback();
+    });
+
+
+    this.Then(/^a notification about descaling is displayed$/, function (callback) {
+        this.actionwords.aNotificationAboutDescalingIsDisplayed();
+        callback();
+    });
 }
