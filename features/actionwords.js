@@ -20,6 +20,10 @@ exports.Actionwords = {
     assert.equal(message || "", this.getCoffeeMachine().get('message'));
   },
 
+  aNotificationAboutDescalingIsDisplayed: function () {
+    assert.equal(true, this.getCoffeeMachine().isDescalingNeeded());
+  },
+
   coffeeShouldBeServed: function () {
     assert.equal(true, this.getCoffeeMachine().get('coffeeServed'));
   },

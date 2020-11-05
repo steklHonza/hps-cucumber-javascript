@@ -108,4 +108,9 @@ module.exports = function () {
         callback();
     });
 
+
+    this.Then(/^a notification about descaling is displayed$/, function (callback) {
+        this.actionwords.aNotificationAboutDescalingIsDisplayed();
+        callback();
+    });
 }
